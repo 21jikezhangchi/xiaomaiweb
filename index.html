@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>小麦赤霉病穗率识别检测</title>
 
-    <link rel="stylesheet" href="./static/css/style_1.css" />
-    <link rel="short icon" href="./static/img/back.jpg">
+    <link rel="stylesheet" href="./style_1.css" />
+    <link rel="short icon" href="./back.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <script type="text/javascript" src="./static/js/cat.js"></script>
+    <script type="text/javascript" src="./cat.js"></script>
      <script>
         document.getElementById("btn_file").addEventListener("change", function(event) {
             const selectedFile = event.target.files[0];
@@ -18,12 +18,12 @@
             document.getElementById("selected_image_url_1").value = selectedImageURL;
 
             // 使用判断语句根据当前选择的图片设置对应的第二张图片的URL
-            if (selectedImageURL === "./static/2.jpg") {
-                document.getElementById("selected_image_url_2").value = "./static/3.jpg";
+            if (selectedImageURL === "./2.jpg") {
+                document.getElementById("selected_image_url_2").value = "./3.jpg";
             } else if (selectedImageURL === "./static/4.jpg") {
-                document.getElementById("selected_image_url_2").value = "./static/5.jpg";
+                document.getElementById("selected_image_url_2").value = "./5.jpg";
             } else if (selectedImageURL === "./static/6.jpg") {
-                document.getElementById("selected_image_url_2").value = "./static/img1.jpg";
+                document.getElementById("selected_image_url_2").value = "./img1.jpg";
             }
             // 添加其他组图片的判断逻辑...
 
@@ -145,12 +145,12 @@
         document.getElementById("selected_image_url_1").value = selectedImageURL;
 
         // 使用判断语句根据当前选择的图片设置对应的第二张图片的URL
-        if (selectedImageURL === "./static/2.jpg") {
-            document.getElementById("selected_image_url_2").value = "./static/3.jpg";
+        if (selectedImageURL === "./2.jpg") {
+            document.getElementById("selected_image_url_2").value = "./3.jpg";
         } else if (selectedImageURL === "./static/4.jpg") {
-            document.getElementById("selected_image_url_2").value = "./static/5.jpg";
+            document.getElementById("selected_image_url_2").value = "./5.jpg";
         } else if (selectedImageURL === "./static/6.jpg") {
-            document.getElementById("selected_image_url_2").value = "./static/img1.jpg";
+            document.getElementById("selected_image_url_2").value = "./img1.jpg";
         }
         // 添加其他组图片的判断逻辑...
 
